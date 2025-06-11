@@ -730,8 +730,8 @@ int main(int argc, char *argv[]) {
     
     // 获取屏幕信息
     screen_config(); 
-    // ::native_window_screen_x = displayInfo.width;
-    ::native_window_screen_x = displayInfo.height;
+    ::native_window_screen_x = displayInfo.width;
+    // ::native_window_screen_x = displayInfo.height;
     ::native_window_screen_y = displayInfo.height;
     
     // 初始化imgui
